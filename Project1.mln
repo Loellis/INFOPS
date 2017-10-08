@@ -7,7 +7,7 @@ superclass common {
 	openstack {
 		image Ubuntu16.04
 		flavor m1.medium
-		keypair main_masterkey
+		keypair main_master
 		
 		network eth0 {
 			netsys_net
