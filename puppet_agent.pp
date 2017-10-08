@@ -1,5 +1,5 @@
 $master = "master.openstacklocal"
-$master_ip = "10.0.7.235"
+$master_ip = "10.0.8.71"
 $interval = "600"
 
 host { 'master.openstacklocal' :
