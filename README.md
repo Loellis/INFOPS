@@ -1,3 +1,0 @@
-# INFOPS
-
-Puppet manifests
