@@ -1,6 +1,6 @@
 $master = "master.openstacklocal"
 $master_ip = "10.0.8.71"
-$interval = "300"
+$interval = "5"
 
 host { 'master.openstacklocal' :
   name => $master,
@@ -19,7 +19,7 @@ augeas { "puppet.conf" :
   context =>  "/files/etc/puppet/puppet.conf",
   changes => [
     "set agent/server $master",
-    "set agent/runinterval 300",
+    "set agent/runinterval 5",
   ],
   notify => Service['puppet'],
 }
