@@ -8,6 +8,6 @@ then
         exit 2
 else
         echo "Last puppet run successful."
-        exit 1
+        exit 0
 fi
 
