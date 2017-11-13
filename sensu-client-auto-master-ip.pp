@@ -5,7 +5,7 @@ $RABBITMQ_PASSWD = "398hhgaihdliauhe893"
 
 $ADMIN_PASSWD = "sensuadminpass"
 
-$SENSU_SERVER_IP =$( cat /home/ubuntu/ipaddr.txt | grep mon | awk '{print $2}' )
+$SENSU_SERVER_IP = "10.0.16.8"
 
 $SENSU_VERSION = "0.23"
 
