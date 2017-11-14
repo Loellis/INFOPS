@@ -1,7 +1,7 @@
 # VARIABLES
 ########################################################
 
-$RABBITMQ_PASSWD = "398hhgaihdliauhe893"
+$RABBITMQ_PASSWD = "password"          #"398hhgaihdliauhe893"
 
 $ADMIN_PASSWD = "sensuadminpass"
 
