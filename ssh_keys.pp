@@ -11,3 +11,10 @@ ssh_authorized_key { "master_ubuntu" :
         ensure => present,
         type => rsa,
 }
+
+ssh_authorized_key { "bkup_ubuntu" :
+        key => "AAAAB3NzaC1yc2EAAAADAQABAAABAQCoohJXltpLwD8p/aeomDqo9MZzGuPvHfJjEvKMyjgL8HYKsbpaC1BFOwxDijzSY8buokbdXbed7t4ZIS/bVXI7UW1bolIYa++LOGadVhkbnm0/NBCqlS7nyZ7HiNpiHasTp67FZkH7u+BZSVqU5iQmtSdJ/L9wLnrFS/IqUwmtQovF0RTVNNxgBVhAiMVFCsTRFshBmm7sBQ3floPRgfTuqbYO8F83Nt9fZA87TjXAEBJgU96p3+ugvU4ZlPAfbaqNg6gd3xbT64s/cvf7f/mkykfNuhZsjZv60WLIX5x7komORkU10i1MeT/4CKR+jkgtX6fwj/6y7/MtNi6aCgij",        
+	user => ubuntu,
+        ensure => present,
+        type => rsa,
+}
